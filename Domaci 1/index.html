@@ -9,7 +9,7 @@
 <body class = "telo">
 <h1 class = Naslov>Domaci Zadatak</h1>
 <button class = "Boja">Boja</button>
-<button calss = "Tekst">Tekst</button>
+<button class = "Tekst">Tekst</button>
 </body>
 <script>
   $('.Boja').click(function(){
@@ -17,7 +17,7 @@
 });
   $('.Tekst').click(function(){
     $.get("nesto.php", function(data){
-      $('h4').html('<h4>'+data+'</h4>');
+      $('h1').html('<h4>'+data+'</h1>');
   });
 });
   </script>
